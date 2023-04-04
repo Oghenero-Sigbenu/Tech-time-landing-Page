@@ -2,7 +2,7 @@ import Course1 from "../Assests/course1.png";
 import Clock from "../Assests/schedule.png";
 import Book from "../Assests/menu_book.png";
 import Author1 from "../Assests/Author1.png";
-import { StarIcon, ClockIcon } from "@heroicons/react/solid";
+import { StarIcon } from "@heroicons/react/solid";
 
 function CourseCard() {
   return (

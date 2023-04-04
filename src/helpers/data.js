@@ -1,15 +1,10 @@
 import Author1 from "../Assests/Author1.png";
 import Author2 from "../Assests/Author2.png";
 import Author3 from "../Assests/Author3.png";
-import Author4 from "../Assests/Author4.png";
-import Author5 from "../Assests/Author5.png";
 import Author6 from "../Assests/Author6.png";
 import Course1 from "../Assests/course1.png";
 import Course2 from "../Assests/course2.png";
 import Course3 from "../Assests/course3.png";
-import Course4 from "../Assests/course4.png";
-import Course5 from "../Assests/course5.png";
-import Course6 from "../Assests/course6.png";
 import Reviewer1 from "../Assests/Frame 176.png";
 import Reviewer2 from "../Assests/Frame 177.png";
 import Reviewer3 from "../Assests/Frame 178.png";

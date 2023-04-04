@@ -7,7 +7,6 @@ import Man from "../Assests/man.png";
 import Lady from "../Assests/lady.png";
 import Splash from "../Assests/splash1.png";
 import Zig from "../Assests/zig.png";
-import Side from "../Assests/side.png";
 
 function ClassDetail() {
   return (
@@ -64,15 +63,19 @@ function ClassDetail() {
           </div>
         </div>
         <div className="w-full lg:w-[50%] pt-[2rem] relative">
-          <img src={Zig} className="absolute -right-32" />
+          <img src={Zig} alt="Man" className="absolute -right-32" />
 
           <div className=" w-[80%] mx-auto relative bg-red-400 my-[2rem] ">
-            <img src={Man} className="absolute w-[90%] z-30" />
+            <img src={Man} className="absolute w-[90%] z-30" alt="Man" />
             <div className=" absolute -bottom-[35rem] -left-[14rem] z-50">
-              <img src={Lady} />
+              <img src={Lady} alt="Man" />
             </div>
             <div>
-              <img src={Splash} className="absolute z-2 right-2 top-48" />
+              <img
+                src={Splash}
+                alt="Man"
+                className="absolute z-2 right-2 top-48"
+              />
             </div>
           </div>
           {/* <img src={Side} className="absolute -right-32 -bottom-20" /> */}

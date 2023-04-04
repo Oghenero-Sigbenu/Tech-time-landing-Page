@@ -9,19 +9,19 @@ function Courses() {
 
   const filterItem = () => {
     const result =
-      activeTab == 1
-        ? courses.filter((item) => item?.type == "Marketing")
-        : activeTab == 2
-        ? courses.filter((item) => item?.type == "Design")
-        : activeTab == 3
-        ? courses.filter((item) => item?.type == "Development")
+      activeTab === 1
+        ? courses.filter((item) => item?.type === "Marketing")
+        : activeTab === 2
+        ? courses.filter((item) => item?.type === "Design")
+        : activeTab === 3
+        ? courses.filter((item) => item?.type === "Development")
         : courses;
     setFilteredArray(result);
   };
 
   useEffect(() => {
     filterItem();
-  }, [activeTab]);
+  });
 
   return (
     <div className="bg-[#F8F9FC] w-full pb-[3rem] overflow-x-hidden">

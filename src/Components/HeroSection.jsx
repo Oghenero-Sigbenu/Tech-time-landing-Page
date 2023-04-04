@@ -1,4 +1,3 @@
-import NavBar from "./Navbar";
 import ProfileImage from "../Assests/Frame 95.png";
 import ProfileImage1 from "../Assests/Frame 96.png";
 import ProfileImage2 from "../Assests/Frame 97.png";

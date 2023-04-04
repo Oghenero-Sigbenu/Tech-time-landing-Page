@@ -1,4 +1,3 @@
-import Star from "../Assests/star.png";
 import Boy from "../Assests/boy.png";
 import { ClockIcon, UserGroupIcon } from "@heroicons/react/solid";
 
@@ -16,7 +15,7 @@ function Why() {
             definition, Generally any standard video image
           </p>
           <div className="">
-            <img src={Boy} />
+            <img src={Boy} alt="Man" />
           </div>
         </div>
         <div className="w-full lg:w-[50%]  pt-[2rem] relative">

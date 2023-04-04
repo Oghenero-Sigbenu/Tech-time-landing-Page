@@ -1,7 +1,4 @@
-import Zoom from "../Assests/logo.png";
 import Reviewer1 from "../Assests/Frame 176.png";
-import Reviewer2 from "../Assests/Frame 177.png";
-import Reviewer3 from "../Assests/Frame 178.png";
 
 function Talents() {
   return (
