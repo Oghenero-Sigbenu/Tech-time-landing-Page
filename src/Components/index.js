@@ -1,0 +1,10 @@
+export { default as HeroSection } from "./HeroSection";
+export { default as Navbar } from "./Navbar";
+export { default as Logo } from "./Logo";
+export { default as ClassDetail } from "./ClassDetail";
+export { default as Why } from "./Why";
+export { default as Courses } from "./Courses";
+export { default as Reviews } from "./Reviews";
+export { default as CardSlider } from "./CardSlider";
+export { default as Talents } from "./Talents";
+export { default as Footer } from "./Footer";

@@ -1,38 +1,15 @@
-.App {
-  text-align: center;
+.bg-image{
+  background-image: url(./Assests/vscode.png) url(./Assests/bulb.png);
+  /* background-position: right top, left top; */
+  background-repeat: no-repeat;
+ /* background-size: 100px 100px; */
 }
+.bg{
+  background-image: url("./Assests/path22.png") url("./Assests/Frame 88.png");
+  background-image: url(./Assests/vscode.png) url(./Assests/bulb.png);
+  background-position: right top, left top;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* background-image: url("./Assests/Frame 88.png"); */
+  background-repeat: no-repeat;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
